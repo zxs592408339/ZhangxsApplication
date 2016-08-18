@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.zhangxsapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image7"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".IntentActivity" />
+        <!-- 隐示设置方法 -->
+        <activity android:name=".ShowInformationActivity">
+            <intent-filter>
+                <action android:name="it.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InputInformationActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ListViewSimpenActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity
+            android:name=".MeiTuanActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity android:name=".AutoCompletTextActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity
+            android:name=".MyTooBarActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MenuOptionActivity" />
+        <activity android:name=".PopMenuActivity" />
+        <activity android:name=".AlertDialogActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".PopupWindowActivity" />
+        <activity android:name=".LinearMainActivity" />
+        <activity android:name=".TabLayoutActivity" />
+        <activity android:name=".TabMainActivity" />
+        <activity android:name=".SQLiteActivity" />
+        <activity android:name=".StudentManagementActivity" />
+        <activity android:name=".AddStudentActivity">
+            <intent-filter>
+                <action android:name="it.intent.action.ADDSTUDENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RevampStudentActivity">
+            <intent-filter>
+                <action android:name="it.intent.action.SENDES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QSLiteAndroidActivity" />
+        <activity android:name=".ShowStudentActivity" />
+        <activity
+            android:name="com.example.administrator.weixin.WeiXinActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.administrator.weixin.RegisterActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.administrator.weixin.HaHaActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".IOActivity" />
+        <activity android:name=".ScanFileActivity" />
+        <activity android:name=".MusicActivity" />
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.example.administrator.zhangxsapplication.MyContentProvider" />
+
+        <activity android:name=".MyServiceActivity" />
+
+        <service android:name=".MyService" />
+
+        <activity android:name=".MyServiceDownFileActivity" />
+
+        <service android:name=".DownFileService" />
+
+        <activity android:name=".InternetImageActivity" />
+        <activity android:name=".GridViewNetActivity" />
+        <activity android:name=".BitmapUtilsActivity" />
+        <activity android:name=".ImageCacheViewerActivity" />
+        <activity android:name=".HttpTextActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity
+            android:name=".ShopsListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.example.administrator.todaynews.TodayNewsActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.MyFragmentActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.ToDayNewsFragmentActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.MyTestFragmentActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.ArgumentActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.FragmentStackActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.FragmentViewPagerActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.SubFragmentMainActivity" />
+        <activity android:name="com.example.administrator.fragmentactivity.NetworkPicturesActivity" />
+        <activity android:name="com.example.administrator.charting.chartingactivity.MyControlActivity" />
+        <activity android:name="com.example.administrator.charting.chartingactivity.MyRelativeLayoutActivity" />
+        <activity android:name="com.example.administrator.animation.MyAnimationActivity"/>
+    </application>
+
+</manifest>

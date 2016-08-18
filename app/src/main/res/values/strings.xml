@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Zhangxs Application</string>
+    <string name="name">学生管理系统</string>
+    <string name="name1">账户：</string>
+    <string name="name2">密码：</string>
+    <string name="name3">登录</string>
+    <string name="name4">注册</string>
+    <string name="name5">忘记密码？</string>
+    <string name="name6">用户名/邮箱/手机号</string>
+    <string name="string_name">._@0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">今年是贯彻习近平主席改革强军战略，推动国防和军队改革向纵深发展的关键之年，是新体制下推动部队全面建设和军事斗争准备深入发展的开局之年。习主席告诫全军，“新军事革命为我们提供了千载难逢的机遇，我们必须到中流击水，不改不行，改慢了也不行。这是我们回避不了的一场大考，军队一定要向党和人民、向历史交出一份合格答卷”。</string>
+</resources>

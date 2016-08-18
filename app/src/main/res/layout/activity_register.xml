@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <FrameLayout
+            android:id="@+id/frame_edit_search_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_register_name"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:background="@drawable/image_edit_text"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                android:paddingLeft="80dp"
+                android:paddingRight="40dp"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="账号  "
+                android:textSize="@dimen/text_size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_edit_search_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_edit_search_one">
+
+            <EditText
+                android:id="@+id/edit_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_edit_text"
+                android:inputType="textPassword"
+                android:paddingBottom="15dp"
+                android:paddingLeft="80dp"
+                android:paddingRight="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="密码  "
+                android:textSize="@dimen/text_size" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/brn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frame_edit_search_two"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/image_button"
+            android:text="提交"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+    </RelativeLayout>
+</RelativeLayout>

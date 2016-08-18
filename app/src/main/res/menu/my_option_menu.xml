@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/back"
+        android:icon="@mipmap/ic_action_back"
+        android:title="返回"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/flip"
+        android:title="翻页" />
+
+    <item
+        android:id="@+id/flip3"
+        android:title="二级菜单">
+        <menu>
+            <item android:title="翻页1" />
+            <item android:title="翻页2" />
+            <item android:title="翻页3" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/flip4"
+        android:title="三级菜单">
+        <menu>
+            <item android:title="第二级1">
+                <menu>
+                    <item android:title="翻页1" />
+                    <item android:title="翻页2" />
+                    <item android:title="翻页3" />
+                </menu>
+            </item>
+            <item android:title="第二级2">
+                <menu>
+                    <item android:title="翻页1" />
+                    <item android:title="翻页2" />
+                    <item android:title="翻页3" />
+                </menu>
+            </item>
+            <item android:title="第二级3">
+                <menu>
+                    <item android:title="翻页1" />
+                    <item android:title="翻页2" />
+                    <item android:title="翻页3" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

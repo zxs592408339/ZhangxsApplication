@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/alert_dialog_one_brn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条对话框" />
+
+    <Button
+        android:id="@+id/alert_dialog_two_brn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alert_dialog_one_brn"
+        android:text="提示对话框" />
+
+    <Button
+        android:id="@+id/alert_dialog_three_brn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alert_dialog_two_brn"
+        android:text="单选对话框" />
+
+    <Button
+        android:id="@+id/alert_dialog_four_brn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alert_dialog_three_brn"
+        android:text="微信登录对话框" />
+</RelativeLayout>

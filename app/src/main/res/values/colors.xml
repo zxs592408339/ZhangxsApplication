@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_mei_tuan">#37b4b2</color>
+    <color name="common_mei_tuan_choose">#dfdfdf</color>
+    <color name="common_mei_tuan_price1">#c6c6c9</color>
+    <color name="common_mei_tuan_p">#ffffff</color>
+    <color name="common_mei_tuan_p1">#d67b3a</color>
+    <color name="colorTop">#414141</color>
+    <color name="colorText">#3c5494</color>
+</resources>

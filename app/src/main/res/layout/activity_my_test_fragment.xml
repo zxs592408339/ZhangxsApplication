@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/life_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:id="@+id/life_fragment_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/add_fragment_brn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+
+    <Button
+        android:id="@+id/remove_fragment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除" />
+
+    <Button
+        android:id="@+id/replace_fragment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换" />
+    <Button
+        android:id="@+id/fragment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传参" />
+</LinearLayout>

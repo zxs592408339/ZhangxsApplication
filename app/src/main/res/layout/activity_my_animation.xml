@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/animation_brn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/animation_alpha_brn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="淡入淡出" />
+
+        <Button
+            android:id="@+id/animation_rotation_brn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转" />
+        <Button
+            android:id="@+id/animation_translationX_brn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="平移" />
+
+
+        <Button
+            android:id="@+id/animation_scaleY_brn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放缩" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/animation_brn_layout_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animation_brn_layout">
+
+        <Button
+            android:id="@+id/animation_mix_brn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="混合动画" />
+
+        <Button
+            android:id="@+id/animation_xml_brn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mxl动画" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/animation_text"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="我做出来的动画效果"/>
+</RelativeLayout>

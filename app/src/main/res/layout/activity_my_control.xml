@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.administrator.charting.control.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:background="@android:color/holo_blue_bright"
+        custom:textcolor="@android:color/holo_red_light"
+        custom:text="我的自定义控件"
+        custom:textsize="25sp"/>
+</RelativeLayout>
